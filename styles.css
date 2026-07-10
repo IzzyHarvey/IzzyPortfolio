@@ -193,6 +193,12 @@ p{ margin:0 0 1em; }
   display:flex; justify-content:space-between;
 }
 
+/* filled reel frame — real photo, no dashed placeholder */
+.frame-filled{ border:none; background:none; }
+.reel-img{
+  width:100%; aspect-ratio:4/5; object-fit:cover; display:block;
+}
+
 /* Generic placeholder block (non-reel, single image) */
 .placeholder{
   border:1px dashed var(--tan-500); background:var(--bg-raised);
