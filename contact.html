@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Izzy Harvey</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="logo" href="index.html"><img src="assets/wordmark.svg" alt="Izzy Harvey"></a>
+    <button class="nav-toggle">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Work</a></li>
+      <li><a href="contact.html" class="nav-cta" aria-current="page">Get in touch</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="wrap grid-2">
+    <div>
+      <p class="eyebrow">Get in touch</p>
+      <h1 style="font-size:clamp(40px,6vw,64px); margin-bottom:20px;">Let's work<br><em>together</em>.</h1>
+      <p class="lede">Add a line here about the kind of projects you take
+        on — brand partnerships, UGC, or full social strategy work — and
+        your typical turnaround.</p>
+
+      <div style="margin-top:40px; display:flex; flex-direction:column; gap:8px;">
+        <span class="eyebrow">Email</span>
+        <a href="mailto:hello@izzyharvey.com" style="font-family:var(--font-display); font-size:24px;">hello@izzyharvey.com</a>
+      </div>
+
+      <div style="margin-top:32px; display:flex; flex-direction:column; gap:8px;">
+        <span class="eyebrow">Socials</span>
+        <a href="https://www.tiktok.com/@izzyharveyx" target="_blank" rel="noopener" style="font-size:16px;">TikTok — @izzyharveyx</a>
+        <a href="https://www.instagram.com/izzyharvey.x" target="_blank" rel="noopener" style="font-size:16px;">Instagram — @izzyharvey.x</a>
+      </div>
+    </div>
+
+    <form action="#" method="POST" style="display:flex; flex-direction:column; gap:20px;">
+      <label style="display:flex; flex-direction:column; gap:8px; font-size:13px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; color:var(--brown-600);">
+        Name
+        <input type="text" name="name" required style="border:none; border-bottom:1px solid var(--tan-500); background:transparent; padding:10px 0; font-size:16px; font-family:var(--font-body); color:var(--brown-950);">
+      </label>
+      <label style="display:flex; flex-direction:column; gap:8px; font-size:13px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; color:var(--brown-600);">
+        Email
+        <input type="email" name="email" required style="border:none; border-bottom:1px solid var(--tan-500); background:transparent; padding:10px 0; font-size:16px; font-family:var(--font-body); color:var(--brown-950);">
+      </label>
+      <label style="display:flex; flex-direction:column; gap:8px; font-size:13px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; color:var(--brown-600);">
+        Brand / Company
+        <input type="text" name="company" style="border:none; border-bottom:1px solid var(--tan-500); background:transparent; padding:10px 0; font-size:16px; font-family:var(--font-body); color:var(--brown-950);">
+      </label>
+      <label style="display:flex; flex-direction:column; gap:8px; font-size:13px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; color:var(--brown-600);">
+        Tell me about your project
+        <textarea name="message" rows="4" required style="border:none; border-bottom:1px solid var(--tan-500); background:transparent; padding:10px 0; font-size:16px; font-family:var(--font-body); color:var(--brown-950); resize:vertical;"></textarea>
+      </label>
+      <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send message</button>
+      <p class="meta" style="font-size:12px;">Note: this form needs a
+        service like Formspree or Getform connected before it will actually
+        send — happy to help wire that up.</p>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-bottom" style="border-top:none; padding-top:0;">
+      <span>© 2026 Izzy Harvey</span>
+      <span>Site by Izzy Harvey</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
