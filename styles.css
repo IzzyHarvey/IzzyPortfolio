@@ -265,8 +265,9 @@ section{ padding:88px 0; }
 .logo-row .placeholder{ width:150px; height:84px; font-size:11px; }
 .logo-chip{
   width:150px; height:84px; border:1px solid var(--border); overflow:hidden;
+  display:flex; align-items:center; justify-content:center;
 }
-.logo-chip img{ width:100%; height:100%; object-fit:cover; display:block; }
+.logo-chip img{ width:100%; height:100%; object-fit:contain; display:block; }
 
 /* ============================================================
    FOOTER
